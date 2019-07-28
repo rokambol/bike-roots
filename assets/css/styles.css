@@ -12,27 +12,28 @@
     left: 674px;
 }
 
-#emptyglass {
-    height: 100px;
+.emptyglass-container {
+    object-fit: contain;    
+    height: 74px;
     width: 35px;
     overflow-y: hidden;
-    transition: all 1s linear;
-    /*    object-fit: contain;*/
-    z-index: 5;
+    transition: all 1s cubic-bezier(0.65, 0.21, 0.65, 1.01);
+
+}
+
+#emptyglass {
+    height: 74px;
+    width: 35px;
 }
 
 #fullglass {
     max-height: 100px;
     max-width: 150px;
-    /* object-fit: contain;*/
 }
-
 
 #bottle {
     position: absolute;
     top: 200px;
     left: 800px;
-    transition: all 1s linear;
- }
-
-/*COMMENT*/
+    transition: all 1s cubic-bezier(0.65, 0.21, 0.65, 1.01);
+}
