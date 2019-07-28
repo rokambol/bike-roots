@@ -1,48 +1,40 @@
 .waiter-image {
-    height: 400px;
-    object-fit: contain;
+
+    /* object-fit: contain;*/
     position: absolute;
-    bottom: 20px;
-    left: 400px;
+    top: 270px;
+    left: 381px;
 }
 
 .glasses {
     position: absolute;
-    bottom: 278px;
+    top: 312px;
     left: 674px;
 }
 
 #emptyglass {
-    height: 100px;
-    width: 100px;
-    object-fit: contain;
+    max-height: 100px;
+    max-width: 150px;
+    overflow-y: hidden;
+    /*    object-fit: contain;*/
     z-index: 5;
 }
 
 #fullglass {
-    height: 100px;
-    width: 100px;
-    object-fit: contain;
-    z-index: 1;
-    
+    max-height: 100px;
+    max-width: 150px;
+    /* object-fit: contain;*/
 }
 
-.hide-glass {
-    height: 1px;
-    overflow-y: hidden;
-    -webkit-transition: height 2s linear;
-    -moz-transition: height 2s linear;
-    -o-transition: height 2s linear;
-    transition: height 2s linear;
-}
 
-.show-glass {
-    height: 475px;
-    overflow-y: hidden;
-    -webkit-transition: height 2s linear;
-    -moz-transition: height 2s linear;
-    -o-transition: height 2s linear;
-    transition: height 2s linear;
+#bottle {
+    position: absolute;
+    top: 200px;
+    left: 800px;
+
+   /* transform: translateX(-100px);
+    transform: rotate(-100deg);*/
+
 }
 
 /*COMMENT*/
