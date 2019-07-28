@@ -6,7 +6,7 @@
 
 .callout-container {
   height: 100vh;
-  background: url("../img/drinkpedia_tent_ex.jpg") no-repeat center center fixed; 
+  background: url("../img/drinkpedia_tent_ex.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -18,18 +18,18 @@ h1 {
 }
 
 .jumbotron-main {
-  background: rgba(255,255,255, 0.7);
-    position: relative;
-    height: 65vh;
-    top: 5vh;
-    padding: 0;
+  background: rgba(255, 255, 255, 0.7);
+  position: relative;
+  height: 62vh;
+  top: 2vh;
+  padding: 0;
 }
 
 .jumbotron-text {
-  background: rgba(255,255,255, 0.7);
+  background: rgba(255, 255, 255, 0.7);
   position: relative;
   height: 10vh;
-  top: 9vh;
+  top: 6vh;
   padding: 0;
 }
 
@@ -37,8 +37,66 @@ ul li {
   display: inline;
 }
 
+ul li a {
+  width: 14vh;
+}
+
 .navbar {
   position: relative;
-  top: 15vh;
-  background: rgba(255,255,225, 0.5);
+  top: 10vh;
+  background: rgba(255, 255, 225, 0.5);
+}
+
+/*TITLE FORMATTING*/
+
+.title {
+  text-shadow: 
+    7px 7px 15px #00ff00,
+    4px 4px 9px #0000ff;
+}
+
+/*
+*
+** The animated drink pouring
+*
+*/
+
+.waiter-image {
+
+  /* object-fit: contain;*/
+  position: absolute;
+  top: 270px;
+  left: 381px;
+}
+
+.glasses {
+  position: absolute;
+  top: 312px;
+  left: 674px;
+}
+
+.emptyglass-container {
+  object-fit: contain;
+  height: 74px;
+  width: 35px;
+  overflow-y: hidden;
+  transition: all 1s cubic-bezier(0.65, 0.21, 0.65, 1.01);
+
+}
+
+#emptyglass {
+  height: 74px;
+  width: 35px;
+}
+
+#fullglass {
+  max-height: 100px;
+  max-width: 150px;
+}
+
+#bottle {
+  position: absolute;
+  top: 200px;
+  left: 800px;
+  transition: all 1s cubic-bezier(0.65, 0.21, 0.65, 1.01);
 }

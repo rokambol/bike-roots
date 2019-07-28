@@ -7,8 +7,11 @@
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
    <!-- Bootstrap 4 -->
-   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <!--  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">-->
+
+   <!-- Bootstrap 4 With a summery theme-->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/solar/bootstrap.min.css" type="text/css" />
+   <!--If you don't like it just uncomment the basic on and delete this-->
 
    <!-- CSS style -->
    <link rel="stylesheet" href="./static/css/style.css">
@@ -19,15 +22,43 @@
 <body>
    <!-- callout -->
    <section class="container-fluid callout-container">
+      <div class="row container pt-3 mx-auto">
+         <div class="col-12 text-center">
+            <div class="mx-auto">
+               <h1 class="title text-danger">Drinkpedia Tent at festivals</h1>
+            </div>
+         </div>
+      </div>
       <div class="jumbotron-main">
-         <p>
-            Here you can put the waiter, glass and bottle
-         </p>
+         <div class="animate">
+            <!--*************WAITER*************-->
+
+            <div class="waiter">
+               <img class="waiter-image" src="assets/images/resized/waiter.png"></img>
+            </div>
+
+            <!--*************GLASS*************-->
+
+            <div class="glasses">
+               <img id="fullglass" src="assets/images/resized/fullglass.png"></img>
+            </div>
+            <div class="glasses emptyglass-container">
+               <img id="emptyglass" src="assets/images/resized/emptyglass.png"></img>
+            </div>
+
+            <!--*************BOTTLE*************-->
+
+            <div class="bottle">
+               <img id="bottle" src="assets/images/resized/bombay_bottle.png"></img>
+
+            </div>
+
+         </div>
       </div>
 
       <div class="jumbotron-text">
          <p>
-            Some text here ...
+            Some text here ... CURRENTLY THIS IS THE AREA TO CLICK TO START POURING THE DRINK
          </p>
       </div>
       <!-- navbar -->
@@ -35,19 +66,22 @@
          <div class="col-12">
             <ul class="d-flex justify-content-around mb-0">
                <li>
-                  <a href="" class="btn btn-success">Gin</a>
+                  <a href="" class="btn btn-warning">Gin</a>
                </li>
                <li>
-                  <a href="" class="btn btn-success">Whiskey</a>
+                  <a href="" class="btn btn-warning">Whiskey</a>
                </li>
                <li>
-                  <a href="" class="btn btn-success">Vodka</a>
+                  <a href="" class="btn btn-warning">Vodka</a>
                </li>
                <li>
-                  <a href="" class="btn btn-success">Cocktails</a>
+                  <a href="" class="btn btn-warning">Cocktails</a>
                </li>
                <li>
-                  <a href="" class="btn btn-success">Orange Juice</a>
+                  <a href="" class="btn btn-warning">Orange Juice</a>
+               </li>
+               <li>
+                  <a href="" class="btn btn-warning">Beer</a>
                </li>
             </ul>
          </div>
@@ -56,15 +90,10 @@
    </section>
    <!-- /callout -->
 
-   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"></script>
-   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"></script>
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+   <script type="text/javascript" src="assets/js/script.js"></script>
 </body>
 
 </html>
