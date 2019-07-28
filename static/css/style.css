@@ -17,9 +17,28 @@ h1 {
   color: #fb5470;
 }
 
-.jumbotron {
+.jumbotron-main {
   background: rgba(255,255,255, 0.7);
     position: relative;
-    top: 30px;
+    height: 65vh;
+    top: 5vh;
     padding: 0;
+}
+
+.jumbotron-text {
+  background: rgba(255,255,255, 0.7);
+  position: relative;
+  height: 10vh;
+  top: 9vh;
+  padding: 0;
+}
+
+ul li {
+  display: inline;
+}
+
+.navbar {
+  position: relative;
+  top: 15vh;
+  background: rgba(255,255,225, 0.5);
 }
