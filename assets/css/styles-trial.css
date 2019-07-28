@@ -1,7 +1,30 @@
+.waiter-image {
+    height: 400px;
+    object-fit: contain;
+    position: absolute;
+    bottom: 20px;
+    left: 400px;
+}
+
 .glasses {
     position: absolute;
-    top: 300px;
-    left: 400px;
+    bottom: 278px;
+    left: 674px;
+}
+
+#emptyglass {
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+    z-index: 5;
+}
+
+#fullglass {
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+    z-index: 1;
+    
 }
 
 .hide-glass {
