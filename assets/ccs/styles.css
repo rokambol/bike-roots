@@ -1,0 +1,25 @@
+.glasses {
+    position: absolute;
+    top: 300px;
+    left: 400px;
+}
+
+.hide-glass {
+    height: 1px;
+    overflow-y: hidden;
+    -webkit-transition: height 2s linear;
+    -moz-transition: height 2s linear;
+    -o-transition: height 2s linear;
+    transition: height 2s linear;
+}
+
+.show-glass {
+    height: 475px;
+    overflow-y: hidden;
+    -webkit-transition: height 2s linear;
+    -moz-transition: height 2s linear;
+    -o-transition: height 2s linear;
+    transition: height 2s linear;
+}
+
+/*COMMENT*/
