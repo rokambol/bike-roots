@@ -23,3 +23,58 @@ h1 {
     top: 30px;
     padding: 0;
 }
+
+.callout-container .scrollDown {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 50px;
+}
+
+.callout-container .scrollDown span {
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin: -10px;
+  border-bottom: 5px solid #e5f3bd;
+  border-right: 5px solid #e5f3bd;
+  transform: rotate(45deg);
+  animation: animate 2s infinite;
+}
+.callout-container .scrollDown span:nth-child(1) {
+  animation-delay: -0.2s;
+}
+.callout-container .scrollDown span:nth-child(2) {
+  animation-delay: -0.4s;
+}
+@keyframes animate {
+  0% {
+    opacity: 0;
+    transform: rotate(45deg) translate(-20px, -20px);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(45deg) translate(20px, 20px);
+  }
+}
+
+
+/*
+*
+** Drink Container
+*
+*/
+
+hr {
+  border-top: 4px solid rgb(254, 85, 118);
+  width: 15%;
+}
+
+.box {
+  margin: 0;
+  height: 150px;
+}
