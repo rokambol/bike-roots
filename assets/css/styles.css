@@ -13,9 +13,10 @@
 }
 
 #emptyglass {
-    max-height: 100px;
-    max-width: 150px;
+    height: 100px;
+    width: 35px;
     overflow-y: hidden;
+    transition: all 1s linear;
     /*    object-fit: contain;*/
     z-index: 5;
 }
@@ -31,10 +32,7 @@
     position: absolute;
     top: 200px;
     left: 800px;
-
-   /* transform: translateX(-100px);
-    transform: rotate(-100deg);*/
-
-}
+    transition: all 1s linear;
+ }
 
 /*COMMENT*/
