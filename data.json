@@ -1,0 +1,10 @@
+[
+  {
+    "name":"Coronna Beer",
+    "image":"assets/images/corona_bottle.png"
+  },
+  {
+     "name": "Jameson",
+     "image": "assets/images/jameson_bottle.png"
+  }
+]
