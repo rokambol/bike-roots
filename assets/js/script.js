@@ -35,15 +35,15 @@ $(document).ready(function(){
         bottle.css(turn).css(slide).css(lower);
     });
 
-    //cancel.click(function() {
-       // fade = { height: 74 };
-       // turn = { transform: 'rotate(0deg)' };
-        //slide = { left: 800 };
-       // lower = { top: 200 };
+    cancel.click(function() {
+        fade = { height: 74 };
+        turn = { transform: 'rotate(0deg)' };
+        slide = { left: 800 };
+        lower = { top: 200 };
 
-       // emptyGlass.css(fade);
-       // bottle.css(turn).css(slide).css(lower);
-   // });
+        emptyGlass.css(fade);
+        bottle.css(turn).css(slide).css(lower);
+    });
 
     ginBtn.click(function() {
         targetDiv1.text(texts[0]);
@@ -59,23 +59,23 @@ $(document).ready(function(){
     
    
     $('#Gin').on('click', function(){
-        $('#bottle').attr('scr', 'images/resized/bombay_bottle.png');
+        $('#bottle').attr('scr', 'assets/images/resized/bombay_bottle.png');
     });
     
     $('#Whiskey').on('click', function(){
-        $('#bottle').attr('scr', 'images/jameson_bottle.png');
+        $('#bottle').attr('scr', 'assets/images/jameson_bottle.png');
     });
     
      $('#Vodka').on('click', function(){
-        $('#bottle').attr('scr', 'images/absolut_bottle.png');
+        $('#bottle').attr('scr', 'assets/images/absolut_bottle.png');
     });
     
     $('#Coctails').on('click', function(){
-        $('#bottle').attr('scr', 'images/fullglass.png');
+        $('#bottle').attr('scr', 'assets/images/fullglass.png');
     });
     
     $('#orangeJuice').on('click', function(){
-        $('#bottle').attr('scr', 'images/orange_juice.png');
+        $('#bottle').attr('scr', 'assets/images/orange_juice.png');
     });
     
 })();
